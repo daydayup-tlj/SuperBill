@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperBill - User Agreement</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .app-name {
+            font-size: 28px;
+            font-weight: 700;
+            color: #007AFF;
+            margin-bottom: 8px;
+        }
+        
+        .agreement-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 15px;
+        }
+        
+        .meta-info {
+            color: #86868b;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .content {
+            font-size: 15px;
+            color: #515154;
+            margin-bottom: 16px;
+        }
+        
+        .warning-box {
+            background-color: #fff8f8;
+            border: 2px solid #ff3b30;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        
+        .warning-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #d70015;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .warning-title:before {
+            content: "⚠️";
+            margin-right: 8px;
+            font-size: 18px;
+        }
+        
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #007AFF;
+            padding: 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-info {
+            background-color: #f2f8ff;
+            border: 1px solid #d1e6ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .contact-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff8e6;
+            border: 1px solid #ffd54f;
+            border-radius: 10px;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #86868b;
+            font-size: 14px;
+        }
+        
+        .list-item {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #1d1d1f;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .app-name {
+                font-size: 24px;
+            }
+            
+            .agreement-title {
+                font-size: 20px;
+            }
+            
+            .warning-box, .highlight-box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-name">SuperBill</div>
+            <div class="agreement-title">User Agreement</div>
+            <div class="meta-info">Effective Date: [March 24, 2026]</div>
+            <div class="meta-info">Last Updated: [March 24, 2026]</div>
+        </div>
+
+        <div class="content">
+            Welcome to "SuperBill" (hereinafter referred to as "this Application" or "we"). This Application is a tool dedicated to recording and managing expenditures and income. Before using this Application, please carefully read and fully understand all the contents of this User Agreement (hereinafter referred to as "this Agreement"). <strong>By downloading, installing, or using this Application, you indicate that you have read, understood, and agreed to be bound by all the terms of this Agreement. If you do not agree to any content of this Agreement, please stop using this Application immediately.</strong>
+        </div>
+
+        <div class="section">
+            <div class="section-title">I. Service Description</div>
+            <div class="content">
+                1.1 This Application provides you with the functionality to create, edit, manage, synchronize, and store income and expenditure entries. Data storage combines local storage with Apple iCloud synchronization.
+            </div>
+            <div class="content">
+                1.2 <strong>This Application does not require registration or a separate account.</strong> All operations are performed locally on your device. The iCloud sync feature is automatically enabled based on the Apple ID you are logged into within your iOS/iPadOS system settings, which is an integration of Apple's system-level services.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">II. Conditions of Use</div>
+            <div class="content">
+                2.1 When using this Application, you should ensure you have fully understood the operating system functionalities of the device you are using (iPhone/iPad), particularly the setup and management of iCloud services.
+            </div>
+            <div class="content">
+                2.2 You shall ensure that your use of this Application complies with the laws and regulations of your country/region and does not infringe upon the legitimate rights and interests of any third party.
+            </div>
+            <div class="content">
+                2.3 If you wish to enable the cross-device data synchronization feature, you need to log in to your Apple ID in your device's system settings and enable iCloud Drive. This process is fully managed by Apple's system and is unrelated to this Application.
+            </div>
+        </div>
+
+        <div class="warning-box">
+            <div class="warning-title">III. Important Notice: Data Backup and Risk Disclaimer</div>
+            
+            <div class="content">
+                <strong>3.1 Data Storage Dependency and Limitations:</strong> Data storage in this Application is highly dependent on:
+                <div class="list-item">(a) The normal operation and local storage security of your device;</div>
+                <div class="list-item">(b) The status of the Apple ID account logged into your device's system, as well as the stability and availability of Apple's iCloud services.</div>
+                <strong>These system-level services and hardware factors are entirely beyond the developer's control.</strong>
+            </div>
+            
+            <div class="content">
+                <strong>3.2 Risk of Data Loss:</strong> Although we strive to ensure the stability of the Application's local operation, the following circumstances (including but not limited to) may result in <strong>partial or complete loss, corruption, desynchronization, or inaccessibility</strong> of your data, and the associated risks are <strong>entirely borne by you</strong>:
+                <div class="list-item">• Loss, damage, system reset, factory reset, or system upgrade of your device;</div>
+                <div class="list-item">• Your active deletion of this Application, clearing of application data or cache;</div>
+                <div class="list-item">• Logging out of Apple ID, disabling iCloud Drive services, or individually turning off iCloud sync permissions for this Application in system settings;</div>
+                <div class="list-item">• Interruptions, failures, data rollbacks, insufficient storage space, changes in service policies, or termination of Apple's iCloud services;</div>
+                <div class="list-item">• Sync failures or data conflicts due to network environment issues;</div>
+                <div class="list-item">• Other force majeure events (such as natural disasters, cyberattacks, government actions) or any unforeseen circumstances.</div>
+            </div>
+            
+            <div class="content">
+                <strong>3.3 Mandatory Backup Obligation:</strong> In light of the risks mentioned above, <strong>you explicitly acknowledge and agree</strong> that this Application is <strong>not</strong> a permanent, absolutely reliable data storage service. For any data that you consider <strong>important, valuable, or irreplaceable</strong>, <strong>you must independently take regular and reliable backup measures.</strong> We strongly recommend utilizing any export functionality this Application may offer to back up important data to <strong>other independent storage media or cloud services</strong>.
+            </div>
+            
+            <div class="content">
+                <strong>3.4 No Warranty and Disclaimer:</strong> This Application is provided as a tool "AS IS" and "AS AVAILABLE." <strong>Under no circumstances does the developer warrant or guarantee that your data will never be lost, corrupted, or synchronized without error. The developer shall not be liable for any data issues or any direct or indirect losses arising from the use or inability to use this Application, or due to any reasons mentioned in section 3.2 of this Agreement. You understand and confirm that the entire risk arising from the use of this Application remains with you.</strong>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">IV. Intellectual Property</div>
+            <div class="content">
+                4.1 All intellectual property rights related to this Application, including all code, technology, interface design, logo, and the name "SuperBill", belong to the developer. This Agreement does not grant you any rights to this intellectual property.
+            </div>
+            <div class="content">
+                4.2 For all content data you create or input while using this Application, the intellectual property rights or related rights <strong>belong to you</strong>. The developer merely provides data management tools through this Application and does not claim ownership of any user content.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">V. In-App Purchases and Refunds</div>
+            <div class="content">
+                5.1 This Application may offer in-app purchases (such as premium feature unlocks, subscriptions, etc.) through the Apple App Store. All purchase transactions are completed between you and Apple Inc., with payments made to Apple. The developer of this Application, as the service provider, does not directly process your payment.
+            </div>
+            <div class="content">
+                5.2 <strong>Regarding Refunds:</strong> All in-app purchase transactions, billing, subscription management, and refund requests must be handled through official Apple channels. Since the developer cannot access, control, or intervene in Apple's transaction and payment systems, <strong>once a purchase is completed, the developer cannot directly process a refund for you.</strong> If you have questions about a purchase or need to request a refund, please contact Apple Support directly, or visit the <a href="https://support.apple.com/en-us/HT204084" target="_blank">Apple Official Refund Support Page</a> to understand the process and policies.
+            </div>
+            <div class="content">
+                5.3 Before purchasing or subscribing to any service, please carefully confirm the relevant feature descriptions and prices. Once a purchase is successfully made, it is deemed that you accept the transaction. Refund requests due to misoperation, change of mind, or failure to meet personal expectations cannot be processed by the developer.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">VI. Service Changes and Suspension</div>
+            <div class="content">
+                6.1 The developer reserves the right to modify, suspend (including suspending iCloud sync support), or terminate any functionality of this Application at any time without prior individual notice.
+            </div>
+            <div class="content">
+                6.2 If the Application ceases operation, we will inform you through reasonable and feasible means, such as in-app announcements or updates on the App Store product page, and recommend that you promptly export and back up all your personal data.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">VII. Disclaimer</div>
+            <div class="content">
+                7.1 The developer does not provide any warranty or assume responsibility for the availability, stability, security, or data integrity of Apple's iCloud services. For issues concerning iCloud services, please contact Apple Support directly.
+            </div>
+            <div class="content">
+                7.2 Any actions you take using this Application and the consequences arising therefrom are solely your responsibility. The developer is not responsible for the legality, authenticity, or accuracy of the content you store using this Application.
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">VIII. Agreement Modification and Applicable Law</div>
+            <div class="content">
+                8.1 The developer reserves the right to revise this Agreement from time to time as necessary. The revised agreement will be published on this page with an updated "Last Updated" date. Your continued use of this Application constitutes acceptance of the revised agreement.
+            </div>
+            <div class="content">
+                8.2 The formation, execution, interpretation, and dispute resolution of this Agreement shall be governed by the laws of the People's Republic of China (for the purpose of this Agreement, excluding the laws of Hong Kong, Macau, and Taiwan).
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-title">IX. Contact and Dispute Resolution</div>
+            <div class="content">
+                9.1 If you have any questions regarding this Agreement, you can contact us via:
+                <div class="list-item">• Developer Email: daydayup_SuperBill@163.com</div>
+            </div>
+            <div class="content">
+                9.2 Any dispute arising from or in connection with this Agreement shall first be resolved through friendly negotiation. Should negotiation fail, either party has the right to submit the dispute to the competent people's court in the developer's jurisdiction for litigation.
+            </div>
+        </div>
+
+        <div class="footer-note">
+            Final Confirmation and Important Reminder: Please understand that properly and regularly backing up important data is your own responsibility. Continuing to use "SuperBill" signifies that you have fully read, paid special attention to, and fully understood the entire contents of Section III of this Agreement regarding data risks and backup obligations, acknowledged all potential risks, and voluntarily assume all consequences.
+        </div>
+
+        <div class="footer">
+            Copyright © [2026] SuperBill. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
